@@ -14,7 +14,7 @@ public class FishSpawner : MonoBehaviour
     }
     IEnumerator BalikSpawn()
     {
-        while(balikSayac < 10)
+        while(balikSayac < 30)
         {
             xPoz = Random.RandomRange(-37, 37);
             zPoz = Random.RandomRange(-32, 32);

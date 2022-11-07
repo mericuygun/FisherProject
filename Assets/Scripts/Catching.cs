@@ -25,7 +25,7 @@ public class Catching : MonoBehaviour
         {
             if(fish != null) //fish componenti var mý diye kontrol eder.
             {
-                fish.FishHealth -= Time.deltaTime;
+                fish.FishHealth -= Time.deltaTime * 100;
             }
             //dokunduðun nesnenin Componentini çek, Fish healthine eriþ ve düþür.
             //fish.FishHealth -= Time.deltaTime;

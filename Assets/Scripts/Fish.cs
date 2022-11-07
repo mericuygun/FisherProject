@@ -10,10 +10,14 @@ public class Fish : MonoBehaviour
     {
         FishHealth = 100;
     }
-
+     
 
     void Update()
     {
+        if (FishHealth <= 0)
+        {
+            Destroy(gameObject);
+        }
         //Health();
     }
     //public void Health()
